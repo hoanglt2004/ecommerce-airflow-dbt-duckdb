@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv310/
+venv310/
+webserver_config.py
+# dbt
+target/
+dbt_modules/
+logs/
+
+# DuckDB
+*.duckdb
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+.env
+
+#airflow
+airflow.cfg
