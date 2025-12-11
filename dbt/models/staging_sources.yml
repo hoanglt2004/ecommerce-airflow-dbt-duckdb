@@ -1,0 +1,7 @@
+version: 2
+
+sources: 
+  - name: raw # tên logical source
+    schema: raw  # schema thực tế trong DuckDB
+    tables:
+      - name: ecommerce # tên bảng thực trong DuckDB: raw.ecommerce

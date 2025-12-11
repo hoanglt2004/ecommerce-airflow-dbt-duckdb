@@ -1,0 +1,13 @@
+ecommerce_warehouse:
+  outputs:
+    dev:
+      type: duckdb
+      # Thay đổi này giúp tránh vấn đề path không hợp lệ trong Windows
+      path: /opt/airflow/duckdb/ecommerce.duckdb
+
+    prod:
+      type: duckdb
+      path: prod.duckdb
+      threads: 4
+
+  target: dev

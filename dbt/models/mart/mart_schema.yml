@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: mart_daily_sales
+    columns:
+      - name: date
+        tests:
+          - not_null
+  
+  - name: mart_product_performance
+    columns:
+      - name: product_id
+        tests:
+          - not_null
+  
+  - name: mart_customer_ltv
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
